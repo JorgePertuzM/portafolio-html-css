@@ -5,6 +5,8 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
+    height: 100vh; /* Alto de la pagina = a la pantalla del dispositivo*/
+    box-sizing: border-box;
 }
 .destacar-titulo{
     color:#22D4FD;
