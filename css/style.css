@@ -115,3 +115,18 @@ gap: 80px;
     font-size: var(--fuente-tamanio);
     font-weight: 400;
 }
+
+@media (max-width: 1200px){
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+    /*
+    .presentacion{
+        display: flex;
+        align-items: center;
+        padding : 5% 15%;
+        justify-content: space-between;
+        gap: 82px;
+    }
+        */
+}
