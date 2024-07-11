@@ -132,14 +132,4 @@ gap: 80px;
     .presentacion__contenido{
         width:auto;
     }
-    
-    
-    /*
-.presentacion__contenido{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-        */
 }
