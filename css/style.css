@@ -8,6 +8,7 @@
 
     --fuente-Montserrat: "Montserrat", sans-serif;
     --fuente-Krona: "Krona One", sans-serif;
+    --fuente-tamanio: 1.5rem; /*1rem = 16px*/
 }
 * {
     padding: 0;
@@ -32,7 +33,7 @@ gap: 80px;
 
 .header__menu__link{
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: var(--fuente-tamanio);
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -53,7 +54,7 @@ gap: 80px;
 }
 
 .presentacion__contenido__titulo{
-    font-size: 36px;
+    font-size: 2.25rem; /*2.25rem = 36px*/
     font-family: var(--fuente-Krona);
 }
 
@@ -62,7 +63,7 @@ gap: 80px;
 }
 
 .presentacion__contenido__texto{
-    font-size: 24px;
+    font-size: var(--fuente-tamanio);
     font-family: var(--fuente-Montserrat);
 }
 
@@ -76,7 +77,7 @@ gap: 80px;
 
 .presentacion__contenido__enlace__subtitulo{
     font-family: var(--fuente-Krona);
-    font-size: 24px;
+    font-size: var(--fuente-tamanio);
     font-weight: 400;
 }
 
@@ -86,7 +87,7 @@ gap: 80px;
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: var(--fuente-tamanio);
     font-weight: 600;
     text-decoration: none;
     color: var(--color-secundario);
@@ -105,6 +106,6 @@ gap: 80px;
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuente-Montserrat);
-    font-size: 24px;
+    font-size: var(--fuente-tamanio);
     font-weight: 400;
 }
